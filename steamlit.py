@@ -62,7 +62,7 @@ horsepower = st.sidebar.number_input(
 )
 
 displacement = st.sidebar.number_input(
-    "Desplazamiento (L)", min_value=0.8, max_value=8.0, value=2.5, step=0.1, format="%.1f"
+    "Cilindrada", min_value=0.8, max_value=8.0, value=2.5, step=0.1, format="%.1f"
 )
 
 vehicle_age = st.sidebar.number_input(
